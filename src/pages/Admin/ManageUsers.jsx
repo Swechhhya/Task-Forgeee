@@ -3,7 +3,7 @@ import DashboardLayout from "../../components/layouts/DashboardLayout";
 import axiosInstance from '/src/utils/axiosInstance.js';
 import { API_PATHS } from "../../utils/apiPaths";
 import { LuFileSpreadsheet } from "react-icons/lu";
-import UserCard from "../../components/cards/UserCard";
+import UserCard from "../../components/Cards/UserCard.jsx";
 import toast from "react-hot-toast";
 
 const ManageUsers = () => {
